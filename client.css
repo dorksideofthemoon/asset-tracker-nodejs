@@ -1,0 +1,61 @@
+/*reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background: url('images/cargoship2.jpg');
+    font-family: Helvetica, sans-serif;
+}
+
+.requests{
+    width: 580px;
+    padding: 15px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: beige;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: #0000;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: #EDEDED;
+}
+
+#addasset{
+    width: 580px;
+    padding: 5px 10px 5px 25px;
+    margin: 5px auto;
+    text-align: left;
+    background-color: beige;
+    }
+
+/*styling addasset form*/
+
+label{
+    text-align: left;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="textarea"],
+select{
+    padding: 4%;
+    margin: 0 0 10px;
+    border: solid 1px white;
+    border-top: none;
+    display: block;
+    width: 73%;
+    font-family: Helevtica, sans-serif;
+    font-size: 14px;
+    color: midnightblue;
+        
+}
